@@ -1,0 +1,163 @@
+$fontfa: 'Times New Roman', Times, serif;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $fontfa;
+    font-size: 15px;
+  
+}
+
+#myVideo {
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+div#seoc{
+    height: 500px;
+    width: 100%;
+    border: 1px solid silver;
+    background-color: white;
+    margin-top: 500px;
+}
+
+
+.content {
+    img{
+        margin: 30px;
+    }
+ 
+    position: fixed;
+    top: 0;
+    color: #f1f1f1;
+    width: 100%;
+}
+#maina{
+    margin-top: 37px;
+    a{ 
+        color: rgb(201, 196, 188);
+        padding: 4px;
+    }
+    a:hover{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    margin-left: 30px;
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+r */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#secondpage{
+    background-color: #000;
+    opacity: 0.6;
+    height: 600px
+}
+div#mainhead{
+    height: 70%;
+    
+}
+h1.centrinfo {
+    margin-top: 28%;
+    text-align: center;
+    color: white;
+}
+a.centrinfo{
+ text-align: center;    
+}
+p.centrinfo{
+    text-align: center;
+    color: black;
+    border: 1px solid silver;
+    padding: 30px;
+    background-color: white;
+}

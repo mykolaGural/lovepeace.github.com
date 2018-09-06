@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <div class="container-fluid" id="mainhead">
+            <video autoplay muted loop id="myVideo">
+                    <source src="65.mp4" type="video/mp4">
+                  </video>
+
+                  <div class="row content">
+                      <div class="col-md-3 col-sm-3">
+                            <img src="img/1.png" alt="loop" height="40px" width="158px">
+                      </div>
+                   
+                      <div class="col-md-6 col-sm-6"  id="maina" >
+                            <nav class="navbar navbar">
+                                    <div class="container-fluid">
+                                            <div class="navbar-header">
+
+                            <a href="#">SERMONS</a>
+                            <a href="#">ABOUT</a>
+                            <a href="#">LOCATIONS</a>
+                            <a href="#">GET INVOLVED</a>
+                            <a href="#">OUTREACH</a>
+                            <a href="#">STORE</a>
+                            <a href="#">GIVING</a> 
+                                 </div>
+                                    </div>
+                            </nav>  
+                      </div>
+
+                      <div class="col-md-2 col-sm-2">
+                        
+                      </div>
+                      <div class="col-md-1 col-sm-1">
+                       
+                          
+                            <div id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="#">About</a>
+                                <a href="#">Services</a>
+                                <a href="#">Clients</a>
+                                <a href="#">Contact</a>
+                              </div>
+                              
+
+                              <div id="main">
+                                    <div class="container" id=" mainright" onclick="openNav(), myFunction(this)" >
+                                 <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+
+                                <script>
+                                        function myFunction(x) {
+                                            x.classList.toggle("change");
+                                        }
+                                        </script>
+    
+                              </div> 
+                              <script>
+                                function openNav() {
+                                    document.getElementById("mySidenav").style.width = "220px";
+                                }
+                                
+                                function closeNav() {
+                                    document.getElementById("mySidenav").style.width = "0";
+                                }
+                                </script>
+
+                          </div> 
+                          
+                            
+                      </div>
+               
+                  </div>
+                  <div class="row">
+                      <div class="col-md-3 col-sm-3"></div>
+                      <div class="col-md-6 col-sm-6" class="centrinfo">
+                        
+                           <h1 class="centrinfo">See What God Can Do Through You</h1>
+                           <a href="" class="centrinfo"> <p class="centrinfo">LEARN MORE</p> </a>
+
+                      </div>
+                      <div class="col-md-3 col-sm-3"></div>
+                  </div>
+     </div>
+
+     
+<div class="container-fluid" id="seoc">
+<h1>Hi my name is MYkola</h1>
+
+</div>
+        
+
+</body>
+</html>
